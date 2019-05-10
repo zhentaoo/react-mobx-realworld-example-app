@@ -10,6 +10,7 @@ import { withRouter } from 'react-router-dom';
 @observer
 export default class Home extends React.Component {
   componentDidMount() {
+    debugger
     this.props.commonStore.loadTags();
   }
 
